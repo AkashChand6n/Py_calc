@@ -14,6 +14,14 @@ This is a simple calculator application built with Python using the `tkinter` li
 - Python 3.x (Preferably Python 3.6+)
 - Tkinter (Usually comes pre-installed with Python)
 
+## Screenshot
+
+Here's a screenshot of the calculator in action:
+
+![Calculator Screenshot](screenshot/calc.png)
+![Calculator Screenshot](screenshot/calc2.png)
+![Calculator Screenshot](screenshot/calc3.png)
+
 ## Installation
 
 ### 1. Clone the Repository
@@ -33,10 +41,3 @@ Click "=" to evaluate the current expression.
 Darkmode dark mode button is added to change it into dark theme
 Lightmode Light mode is added to change to lightmode
 
-## Screenshot
-
-Here's a screenshot of the calculator in action:
-
-![Calculator Screenshot](screenshot/calc.png)
-![Calculator Screenshot](screenshot/calc2.png)
-![Calculator Screenshot](screenshot/calc3.png)
