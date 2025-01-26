@@ -30,5 +30,6 @@ Python py_calc.py
 Click the number and operator buttons to input your calculation.
 Use the "C" button to clear the current input.
 Click "=" to evaluate the current expression.
+
 Darkmode dark mode button is added to change it into dark theme
 Lightmode Light mode is added to change to lightmode
