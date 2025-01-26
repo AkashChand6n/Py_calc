@@ -90,4 +90,5 @@ light_button.grid(row=6, column=2, columnspan=2)
 set_light_mode()
 
 # Start the main event loop
-root.mainloop( #bug part here
+root.mainloop()#bug part here
+#bug fixed here
