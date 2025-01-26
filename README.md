@@ -25,7 +25,6 @@ git clone https://github.com/AkashChand6n/Py_calc.git
 cd Py_calc
 Python py_calc.py
 
-
 -Usage-
 Click the number and operator buttons to input your calculation.
 Use the "C" button to clear the current input.
