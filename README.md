@@ -32,3 +32,11 @@ Click "=" to evaluate the current expression.
 
 Darkmode dark mode button is added to change it into dark theme
 Lightmode Light mode is added to change to lightmode
+
+## Screenshot
+
+Here's a screenshot of the calculator in action:
+
+![Calculator Screenshot](screenshot/calc.png)
+![Calculator Screenshot](screenshot/calc2.png)
+![Calculator Screenshot](screenshot/calc3.png)
