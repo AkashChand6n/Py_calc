@@ -1,4 +1,5 @@
 import tkinter as tk
+import math  # Importing the math module for square root function
 
 # Function to handle button clicks
 def button_click(value):
@@ -13,7 +14,13 @@ def clear():
 # Function to calculate the result
 def calculate():
     try:
-        result = eval(entry.get())  # Use eval to evaluate the expression
+        # Check if there's a square root symbol in the entry, and handle it
+        expression = entry.get()
+        # Replace the square root symbol with math.sqrt() for calculation
+        if '√' in expression:
+            expression = expression.replace('√', 'math.sqrt(') + ')'
+        
+        result = eval(expression)  # Use eval to evaluate the expression
         entry.delete(0, tk.END)
         entry.insert(tk.END, str(result))
     except Exception as e:
@@ -53,6 +60,7 @@ buttons = [
     ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
     ('1', 3, 0), ('2', 3, 1), ('3', 3, 2), ('-', 3, 3),
     ('0', 4, 0), ('.', 4, 1), ('+', 4, 2), ('=', 4, 3),
+    ('√', 5, 0),  # Square root button
 ]
 
 # Create and place the buttons
@@ -68,11 +76,11 @@ for (text, row, col) in buttons:
 
 # Clear button
 clear_button = tk.Button(root, text="C", width=5, height=2, font=("Arial", 18), command=clear)
-clear_button.grid(row=5, column=0, columnspan=2)
+clear_button.grid(row=5, column=2, columnspan=2)
 
 # Dark mode button
 dark_button = tk.Button(root, text="Dark Mode", width=15, height=2, font=("Arial", 14), command=set_dark_mode)
-dark_button.grid(row=5, column=2, columnspan=2)
+dark_button.grid(row=6, column=0, columnspan=2)
 
 # Light mode button
 light_button = tk.Button(root, text="Light Mode", width=15, height=2, font=("Arial", 14), command=set_light_mode)
@@ -83,5 +91,3 @@ set_light_mode()
 
 # Start the main event loop
 root.mainloop()
-
-#this is made for making a review
