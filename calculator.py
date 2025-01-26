@@ -83,3 +83,5 @@ set_light_mode()
 
 # Start the main event loop
 root.mainloop()
+
+#this is made for making a review
