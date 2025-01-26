@@ -18,9 +18,9 @@ This is a simple calculator application built with Python using the `tkinter` li
 
 Here's a screenshot of the calculator in action:
 
-![Calculator Screenshot](screenshot/calc.png)
-![Calculator Screenshot](screenshot/calc2.png)
-![Calculator Screenshot](screenshot/calc3.png)
+![Calculator Screenshot](Screenshot/calc.png)
+![Calculator Screenshot](Screenshot/calc2.png)
+![Calculator Screenshot](Screenshot/calc3.png)
 
 ## Installation
 
