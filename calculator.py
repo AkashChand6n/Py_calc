@@ -1,7 +1,5 @@
 import tkinter as tk
 
-# import math  # Importing the math module for square root function
-
 
 # Function to handle button clicks
 def button_click(value):
@@ -146,4 +144,4 @@ set_light_mode()
 # Start the main event loop
 root.mainloop()  # bug part here
 # bug fixed here
-# make conflit here
+# conflit here
